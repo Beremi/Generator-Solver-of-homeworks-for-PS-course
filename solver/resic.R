@@ -1879,5 +1879,3 @@ for (c_ukolu in 1:200) {
   setwd("..")
   setwd(back_route_dir)
 }
-setwd(output_data_dir)
-system(paste0(back_route_dir, "convert_all_to_pdf.sh"))
