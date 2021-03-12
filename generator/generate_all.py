@@ -8,8 +8,8 @@ Created on Wed Oct 24 08:11:28 2018
 
 from gen_dat_soubor import Generator
 
-my_gen = Generator(column_names=['svítivost při teplotě 22 °C (lm)',
-                                 'svítivost při teplotě 5 °C (lm)', 'výrobce'],
+my_gen = Generator(column_names=['Světelný tok při teplotě 22 °C (lm)',
+                                 'Světelný tok při teplotě 5 °C (lm)', 'výrobce'],
                    TF_answers=['ano', 'ne'],
                    group_names=['Amber', 'Bright', 'Clear', 'Dim'],
                    mean_size=70,
